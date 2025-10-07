@@ -32,16 +32,16 @@ This workflow mimics professional pharmacometric analyses used in model-informed
 ## Model Summary
 A one-compartment model with first-order absorption and elimination:
 
-\[
+$[
 C(t) = \frac{F D k_a}{V (k_a - k)} 
 \left(\frac{1 - e^{-k_a t}}{1 - e^{-k_a \tau}} - \frac{1 - e^{-k t}}{1 - e^{-k \tau}}\right)
-\]
+]$
 where  
-- \( F \): Bioavailability (assumed = 1)  
-- \( D \): Dose  
-- \( k_a \): Absorption rate constant  
-- \( k = CL/V \): Elimination rate constant  
-- \( τ \): Dosing interval  
+- $( F )$: Bioavailability (assumed = 1)  
+- $( D )$: Dose  
+- $( k_a )$: Absorption rate constant  
+- $( k = CL/V )$: Elimination rate constant  
+- $( τ )$: Dosing interval  
 
 Variability modeled as **log-normal distributions** for CL, V, and kₐ.
 
