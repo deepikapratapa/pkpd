@@ -1,7 +1,7 @@
 # Monte Carlo Pharmacokinetic/Pharmacodynamic (PK/PD) Simulation
 
 > **Author:** Deepika Sarala Pratapa  
-> **University of Florida · M.S. in Applied Data Science (Bioinformatics Specialization)**  
+> **University of Florida · M.S. in Applied Data Science**  
 > **Project Type:** Pharmacometric Modeling & Simulation  
 > **Language:** Python (NumPy · Pandas · Matplotlib · Streamlit)  
 
